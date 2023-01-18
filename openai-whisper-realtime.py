@@ -9,9 +9,9 @@ import sys
 
 
 # SETTINGS
-MODEL_TYPE="base.en"
+MODEL_TYPE="large-v2"
 # the model used for transcription. https://github.com/openai/whisper#available-models-and-languages
-LANGUAGE="English"
+LANGUAGE="Chinese"
 # pre-set the language to avoid autodetection
 BLOCKSIZE=24678 
 # this is the base chunk size the audio is split into in samples. blocksize / 16000 = chunk length in seconds. 
